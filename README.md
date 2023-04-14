@@ -29,3 +29,8 @@ Conversión de json con anotaciones desde [LabelStudio](https://labelstud.io/) a
 5. Correr la notebook
 
         label-studio-annotations-to-json-desafio.ipynb
+        
+6. Post-procesamiento de archivo final
+
+        - Por el momento es requerido realizar una correccion (busqueda y reemplazo) para caracteres escapados que resultan con un doble escapado.
+        Ejemplos: \\n --> \n    y    \\" --> \"
